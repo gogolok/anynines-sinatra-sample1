@@ -1,0 +1,9 @@
+---
+applications:
+- name: anynines-sinatra-sample1
+  framework: sinatra
+  runtime: ruby19
+  memory: 512M
+  instances: 2
+  url: anynines-sinatra-sample1.${target-base}
+  path: .
